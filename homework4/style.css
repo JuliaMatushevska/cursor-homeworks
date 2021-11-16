@@ -1,0 +1,258 @@
+.header{
+    position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+background: #ED4C5C;
+}
+.div1{
+    float:left;
+    width:50% ;
+
+}
+.focus-money{
+    position: absolute;
+width:445px;
+height: 107px;
+left: 165px;
+top: 122px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+}
+.text1{
+    position: absolute;
+width: 445px;
+height: 64px;
+left: 165px;
+top: 253px;
+
+font-family: Lato;
+    src: url(Lato-Bold.ttf);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+
+color: #FFFFFF;
+}
+.vector{
+    position: absolute;
+width: 134px;
+height: 32px;
+left: 163px;
+top: 357px;
+
+}
+.div2{
+    float:right;
+    width:50% ;
+}
+.photo1{
+    position: absolute;
+width: 533px;
+height: 311px;
+left: 691px;
+top: 94px;
+}
+.main{
+    position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 500px;
+
+background: #FFFFFF;
+}
+.div3{
+    float:left;
+    width:50% 
+}
+.contact{
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 176px;
+    top: 117px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #000000;
+    
+}
+.text2{
+    position: absolute;
+width: 434px;
+height: 64px;
+left: 176px;
+top: 215px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+
+
+text-align: justify;
+
+color: #000000;
+}
+.div4{
+    float:right;
+    width:50%  
+}
+.input1{
+    position: absolute;
+width: 255px;
+height: 60px;
+left: 735px;
+top: 117px;
+
+border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(19, 39, 67, 0.5);
+padding-left: 31px;
+}
+.input2{
+    position: absolute;
+width: 255px;
+height: 60px;
+left: 1020px;
+top: 117px;
+border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(19, 39, 67, 0.5);
+padding-left: 31px;
+}
+.input3{
+    position: absolute;
+width: 540px;
+height: 60px;
+left: 735px;
+top: 201px;
+
+border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(19, 39, 67, 0.5);
+padding-left: 31px;
+}
+.input4{
+    position: absolute;
+width: 540px;
+height: 60px;
+left: 735px;
+top: 285px;
+border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(19, 39, 67, 0.5);
+padding-left: 31px;
+}
+.submit{
+    position: absolute;
+width: 160px;
+height: 50px;
+left: 735px;
+top: 372px;
+
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+box-sizing: border-box;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footer{
+    position: absolute;
+width: 1440px;
+height: 435px;
+left: 0px;
+top: 1045px;
+
+background: #FAFAFA;
+
+}
+.address{
+    position: absolute;
+width: 259px;
+height: 264px;
+left: 161px;
+top: 85px;
+}
+.services{
+    position: absolute;
+width: 254px;
+height: 164px;
+left: 450px;
+top: 85px;
+
+}
+.get-in-touch{
+    position: absolute;
+width: 122px;
+height: 128px;
+left: 734px;
+top:85px;
+}
+.support{
+    position: absolute;
+width: 96px;
+height: 22px;
+left: 1022px;
+top: 85px;
+}
+.cards{
+    position: absolute;
+width: 216px;
+height: 31px;
+left: 1028px;
+top: 140px;
+
+background: url(.png);
+}
