@@ -69,13 +69,14 @@
     margin-bottom:26px;
 }
 .button2{
-    width: 210px;
+    width: 250px;
     height: 40px;
     background: #4AD295;
     border-radius: 2px;
+    border:none;
     margin-top:18px;
     margin-bottom:18px;
-    margin-right:80px;
+    margin-right:50px;
     margin-left: 10px;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -173,6 +174,7 @@ p{
     border-radius: 8px;
     border-color: rgba(13, 12, 34, 0.05);
     background: rgba(13, 12, 34, 0.05);
+    border:none;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -196,6 +198,7 @@ p{
     top: 22px;
     background: #EA4C89;
     border-radius: 8px;
+    border:none;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -254,12 +257,13 @@ p{
     top: 18px;
     background: #FFFFFF;
     border-radius: 8px;
+    border:none;
     position: static;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #26262B;
     padding-bottom:10px;
-    padding-top: 4px;
+    padding-top: 7px;
 }
 .small{
     display: flex;}
@@ -283,7 +287,7 @@ p{
 .photo4{
     position: static;
     width: 121px;
-    height: 20px;
+    height: 17px;
     padding-left:15px;
     padding-top:10px;
     padding-right:240px;
@@ -309,7 +313,7 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: static;
+    position:static;
     width: 85px;
     height: 32px;
     left: 227px;
@@ -317,14 +321,13 @@ p{
     background: #09B3AF;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
+    border: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 8px;
-    padding-bottom:50 px;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 14px;
-    line-height: 16px;
     text-align: center;
     float:right;
     width:30%;
@@ -355,7 +358,7 @@ p{
 .photo5{
     position: static;
     width: 132px;
-    height: 20px;
+    height: 19px;
     left: 0px;
     top: 0px;
     flex: none;
@@ -396,6 +399,7 @@ p{
     background: #EAF0F4;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
+    border:none;
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -407,7 +411,7 @@ p{
     text-align: center;
     color: #687F8C;
     margin-top: 16px;
-    border-color:#EAF0F4;
+    
 }
 .accept-all{
     display: flex;
@@ -424,6 +428,7 @@ p{
     background: #40C1A7;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
+    border:none;
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -435,7 +440,7 @@ p{
     text-align: center;
     color:#FFFFFF;
     margin-top: 16px;
-    border-color:#40C1A7;
+  
 }
 .small-two{
     display: flex;
@@ -458,16 +463,22 @@ p{
     flex-grow: 0;
     margin: 72px 10px;
 }
-.photo7{
+.big-cookies{
     position: static;
-    width: 130px;
-    height: 50px;
+    width: 104px;
+    height: 48px;
     left: 76px;
     top: 0px;
+    font-family:Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295A;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
 }
 .text7{
     position: static;
@@ -500,7 +511,7 @@ p{
     top: 184px;
     background: #4A7EFF;
     border-radius: 43px;
-    border-color: #4A7EFF ;
+    border:none;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -553,33 +564,29 @@ p{
     flex-direction: row;
     justify-content: space-around;
     position: static;
-    width: 500px;
-    height: 100px;
     top: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 19px;
-    text-align:center;
+    font-size: 16px;
+    text-align:left;
     color: #6666FF;
-    margin: 20px 100px 24px 50px;
-    float:left;
-    width:50%;
+    padding-top: 20px;
+    padding-left:16px ;
+    padding-top: 24px;
+    padding-right:30px ;
+
 }
 .two-accept{
     display: flex;
     flex-direction: row;
     justify-content:space-around ;
-    align-items: center;
+    align-items:center;
+    width: 64px;
     padding: 8px;
     position: static;
-    width: 64px;
-    height: 33px;
-    left: 100px;
-    top: 0px;
     background: #6666FF;
     border-radius: 4px;
-    border-color: #6666FF ;
-    flex: none;
+    border:none;
     order: 1;
     flex-grow: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -591,6 +598,5 @@ p{
     order: 0;
     flex-grow: 0;
     margin: 0px 0px 0px 100px;
-    float:right;
-    width:50%;
+    
 }
