@@ -359,9 +359,10 @@ p{
 }
 .content{
     width: 328px;
-    padding: 16px;
+    
 }
 .photo5{
+    padding-top:16px;
     padding-left:7px;
     width: 132px;
     height: 19px;
@@ -378,10 +379,12 @@ p{
     
 }
 .buttons-container{
-    width:328px ;
-    display: flex;
-    justify-content: space-between;
     padding:16px;
+    width: 328px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;  
+  
 }
 .manage-cookies{
     width: 160px;
@@ -389,15 +392,12 @@ p{
     background: #EAF0F4;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
-    
     border:none;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    color: #687F8C;  
-
+    color: #687F8C; 
 }
 .accept-all{
     width: 160px;
@@ -408,7 +408,7 @@ p{
     border-radius: 6px;
     border:none;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-style: normal;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -532,6 +532,6 @@ p{
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-       
+    
+    
 }
-
