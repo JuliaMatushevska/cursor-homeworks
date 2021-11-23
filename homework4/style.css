@@ -194,6 +194,13 @@
     color: rgba(19, 39, 67, 0.5);
     padding-left: 31px;
 }
+.select{
+    position: absolute;
+    left: 1230px;
+    top: 305px;
+    z-index: 1;
+    border:none;
+}
 .submit{
     position: absolute;
     width: 160px;
