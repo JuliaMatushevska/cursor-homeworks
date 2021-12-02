@@ -1,21 +1,20 @@
 .page{
     width: 1600px;
-    height: 4500px;
+    height: 4800px;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     margin:0 auto;
 }
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-top:67px;
    
 }
 .image1{
     width: 20px;
     height: 20px;
-    margin-left: 240px;
-    margin-top:77px;
     margin-right: 9px;
 }
 .image2{
@@ -100,7 +99,7 @@
 }
 .vector1{
     padding-top: 5px;
-    float:right;    
+    float:center;    
 }
 .div1{
     display: flex;
