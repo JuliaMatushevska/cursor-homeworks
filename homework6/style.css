@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top:67px;
+    margin-top: 67px;
    
 }
 .image1{
@@ -99,7 +99,7 @@
 }
 .vector1{
     padding-top: 5px;
-    float:center;    
+    float:center;  
 }
 .div1{
     display: flex;
@@ -194,7 +194,7 @@
     padding-top: 125px;
     padding-right: 93px;
 }
-.text2{   
+.text2{  
     width:474px;  
     height:170px;
     font-family: 'Roboto', sans-serif;
@@ -211,7 +211,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 .h3{
     width: 405px;
@@ -235,6 +234,7 @@
     text-align: center;
     color: #4B5D68;
 }
+
 .container{
     display:flex;
     flex-direction: row;
@@ -271,8 +271,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
-
 }
 .photo5{
     width: 232px;
@@ -323,19 +321,19 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: space-between;
-    }
+}
 .block2 .row{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    }
-    .photo6{
+}
+.photo6{
     width: 241px;
     height: 185px;
     margin-right: 30px;
     padding-top: 40px;
     }
-.hours{
+    .hours{
     width: 200px;
     height: 50px;
     font-family: 'Roboto', sans-serif;
@@ -347,7 +345,7 @@
     margin-bottom: 20px;
     }
     .text6{
-    width: 220px;
+        width: 220px;
     height: 160px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -357,7 +355,7 @@
     color: #4B5D68;
     margin-bottom: 20px;
     }
-.span-learn{
+ .span-learn{
     width: 87px;
     height: 26px;
     font-family: 'Roboto', sans-serif;
@@ -365,31 +363,32 @@
     font-weight: 900;
     font-size: 16px;
     line-height: 160%;
-    color: #212353; 
+    color: #212353;
+    
     }
-    .learn-more{
-     display: flex;
-     flex-direction: row;
-     justify-content:flex-start;
-     align-items:center ;
+.learn-more{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center ;
     }
 .block3 .column3{
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     align-items: space-between;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
 .block3 .row{
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
     .photo7{
     width: 245px;
     height: 181px;
     margin-right: 30px;
     padding-top: 40px;
-    }
+}
     .print{
     width: 200px;
     height: 50px;
@@ -400,7 +399,7 @@
     line-height: 130%;
     color: #212353;
     margin-bottom: 20px;
-    }
+}
     .text7{
     width: 220px;
     height: 160px;
@@ -421,70 +420,71 @@
     font-size: 16px;
     line-height: 160%;
     color: #212353;
-    }
-.learn-more{
-     display: flex;
-     flex-direction: row;
-     justify-content:flex-start;
-     align-items:center ;
-    }
-.block4 .column4{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: space-between;
-    }
-.block4 .row{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
 }
-.photo8{
-      width: 230px;
-      height: 201px;
-      margin-right: 30px;
-      padding-top: 40px; }
-.security{
-      width: 200px;
-      height: 50px;
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 130%;
-      color: #212353;
-      margin-bottom: 20px;
+.learn-more{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center ;
+}
+.block4 .column4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+.block4 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+    .photo8{
+     width: 230px;
+    height: 201px;
+    margin-right: 30px;
+    padding-top: 40px;
     }
-.text8{
-      width: 220px;
-      height: 160px;
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 160%;
-      color: #4B5D68;
-      margin-bottom: 20px;
+    .security{
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 20px;
     }
-    
+    .text8{
+     width: 220px;
+    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 20px;
+    }
     .span-learn{
-     width: 87px;
+    width: 87px;
     height: 26px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
     line-height: 160%;
-    color: #212353; 
+    color: #212353;
+    
     }
-.learn-more{
-     display: flex;
-     flex-direction: row;
-     justify-content:flex-start;
-     align-items:center ;
+    .learn-more{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center ;
     }
         
-.purple-div{
+.purple-div{  
     width: 1118px;
     height: 709px;
     background: #9C69E2;
@@ -566,9 +566,9 @@
     color: #212353;
     margin-bottom: 2px;
     padding-top: 60px;
-}
-.word{
-    width: 149px;
+    }
+    .word{
+        width: 149px;
     height: 22px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -577,9 +577,9 @@
     line-height: 160%;
     color: #9C69E2;
     margin-bottom: 19px;
-}
-.text10{
-    width: 567px;
+    }
+    .text10{
+        width: 567px;
     height: 130px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -588,6 +588,7 @@
     line-height: 180%;
     color: #4B5D68;
     padding-bottom: 50px;
+
 }
 .line{
     width: 1600px;
@@ -614,6 +615,7 @@
     text-align: center;
     color: #FFFFFF;
     margin-right: 30px ;
+
 }
 .buttons{
     display: flex;
@@ -664,6 +666,7 @@
     width: 49px;
     height: 35px;
     margin-right: 20px;
+
 }
 .data{
     width: 153px;
@@ -686,6 +689,7 @@
     flex-direction:column;
     justify-content:flex-start;
     align-items:flex-start;
+
 }
 .address{
     width: 335px;
