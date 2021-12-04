@@ -822,13 +822,7 @@ height: 40px;
 margin-right: 20px;
 }
 .text-cont2{
-    width: 321px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #111111;}
+    width: 321px;}
 
 .contact3{
     display: flex;
