@@ -1,0 +1,158 @@
+.body{
+    background-color: black;
+}
+
+.first{
+    width:500px;
+    height: 300px ;
+    margin-left: 300px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.burgers{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;  
+}
+
+.burgers::before{
+    content: "";
+    width: 350px;
+    height:15px ;
+    background-color: rgb(255, 255, 255);  
+    display: block;
+    background: linear-gradient(270deg, #ffffff 0%, #ffffff 70%, #000 70%, #000 85%, #ffffff 85%, #ffffff 100% );
+    border-radius: 20px;
+}
+
+.burger-one{
+    width: 350px;
+    height:15px ;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(450deg, #ffffff 0%, #ffffff 70%, #000 70%, #000 85%, #ffffff 85%, #ffffff 100% );
+    border-radius: 20px;
+    
+}
+
+.burgers::after{
+    content: "";
+    width: 350px;
+    height:15px ;
+    background-color: rgb(255, 255, 255);  
+    background: linear-gradient(270deg, #ffffff 0%, #ffffff 70%, #000 70%, #000 85%, #ffffff 85%, #ffffff 100% );
+    border-radius: 20px;  
+}
+
+.burgers:hover{
+    cursor: pointer;
+}
+
+.burgers:hover.burgers::before{
+    box-shadow: 0px 0px 40px rgb(54, 231, 128);
+    transform: translateY(105px) rotate(-45deg);
+    transition-duration: 1s;   
+}
+
+.burgers:hover.burgers::after{
+    box-shadow: 0px 0px 40px rgb(216, 53, 53);
+    transform: translateY(-25px) rotate(-135deg);
+    transition-duration: 1s;
+}
+
+.burgers:hover .burger-one{
+    visibility: hidden;
+}
+
+.second{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(236, 191, 227);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.balls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;   
+}
+
+.ball{
+    position: relative;
+    width:80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    box-shadow: 0px 25px 25px 1px #000000;
+}
+
+.ball:nth-child(1){
+    position: absolute;
+    top:600px;
+    left:280px;
+    background-color:crimson;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes first{
+    from{ 
+        margin-left: 100px; 
+        background-color: rgb(226, 43, 113) ;    
+    }
+    50%{
+       margin-left: 20px;
+       top:520px; 
+       background-color: blueviolet;
+
+    }
+    to{
+        margin-left: 100px;
+        background-color: blueviolet;
+    }
+
+}
+
+.ball:nth-child(7){
+    position: absolute;
+    top:600px;
+    left:760px;
+    background-color:crimson;
+    animation-name: last;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes last{
+    from{ 
+        margin-left: 100px; 
+        background-color: rgb(226, 43, 113);    
+    }
+    50%{
+       margin-left: 170px;
+       top:520px; 
+       background-color: blueviolet;  
+    }
+    to{
+        margin-left: 100px;
+        background-color: blueviolet; 
+        
+    }
+
+}
+
+
