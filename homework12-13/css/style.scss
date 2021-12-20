@@ -1,0 +1,801 @@
+$text-color1:#505F98;
+$text-color2:#091133;
+$text-color3:#6F7CB2;
+$text-color4:#5D6970;
+$color-button:#111B47;
+$color-textbutton:#FFFFFF;
+$font-family:'Roboto',sans-serif;
+
+@mixin flex-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+@mixin row-between {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin column {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;   
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background: #FFFFFF;
+    padding-left: 5%;
+    
+    
+}
+@media (max-width:720px) {
+    body{
+        width:100%;
+        padding-left: 0%;
+    }
+    
+}
+
+.nav{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation{
+    width:300px;
+    @include row-between; 
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: $text-color1;
+    margin-right: 301px;
+}
+
+a{
+    text-decoration: none;   
+}
+
+.title{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+    z-index: 2;
+    margin-right: 355px;
+
+}
+.button{
+    width:160px;
+    height: 26px;
+    background: $color-button;
+    border-radius: 2px;
+    border: none;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align:center;
+    color: $color-textbutton;
+    z-index: 2;
+    padding-top:5px;
+
+}
+
+.section1{
+    width:100%;
+    margin-top: 180px;
+    margin-bottom: 551px;  
+}
+
+.text1{
+    @include column;
+}
+
+.banner1{
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    z-index: 0;
+}
+
+.h1{
+    width: 539px;
+    height: 132px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: $text-color2;
+    z-index: 2;
+}
+
+.span1{
+    width: 539px;
+    height: 164px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: $text-color1;
+    margin-bottom: 70px;
+    z-index: 2;
+}
+
+.buttons1{
+    width:400px;
+    @include row-between;
+    z-index: 2;
+}
+
+.button1{
+    width: 189px;
+    height: 26px;
+    background: $color-button;
+    border-radius: 2px;
+    border: none;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: $color-textbutton;
+}
+
+.button2{
+    width: 189px;
+    height: 26px;
+    border: 2px solid #091133;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: $text-color2;
+    z-index:2;
+}
+
+.section2{
+    width:100%;
+    @include flex-row;
+    margin-bottom: 270px;
+}
+
+.text2{
+    @include column;
+    margin-right: 10%;
+    
+}
+
+.first-h2{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: $text-color2;
+
+}
+
+.span2{
+    width: 540px;
+    height: 140px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color3;
+    margin-bottom: 80px;
+}
+
+.two-div{
+    @include flex-row;
+}
+
+.small-div1{
+    @include column;
+}
+
+.small-div2{
+    @include column;
+}
+
+.small-img{
+    width: 36px;
+    height: 36px;
+}
+
+.small-h3{
+    font-family: $font-family;
+    color:$text-color2;
+}
+
+.small-span{
+    width: 255px;
+    height: 54px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: $text-color4;
+}
+
+.banner-second{
+    width: 540px;
+    height: 525px;
+}
+
+.section3{
+    width: 100%;
+    @include flex-row;
+    margin-bottom: 270px;
+}
+
+.div3{
+    @include column;
+    margin-left: 15%;
+}
+
+.section3-h2{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color:$text-color2;
+}
+.span3{
+    width: 445px;
+    height: 166px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color3;
+    
+}
+
+.section4{
+    width:100%;
+    @include flex-row;
+    margin-bottom: 253px;
+}
+
+.div4{
+    @include column;
+    margin-left: 12%;
+}
+
+.section4-h2{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color:$text-color2;
+}
+
+.span4{
+    width: 445px;
+    height: 166px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color3;   
+}
+
+.section5{
+    width:100%;
+    @include flex-row;
+    margin-bottom: 410px;
+}
+
+.div5{
+    @include column;
+    margin-left: 17%;   
+}
+
+.section5-h2{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color:$text-color2;
+}
+
+.span5{
+    width: 445px;
+    height: 166px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color3;
+    margin-bottom: 40px;
+}
+
+.button5{
+    width: 150px;
+    height: 32px;
+    background: $color-button;
+    border-radius: 2px;
+    border: none;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $color-textbutton;
+}
+
+.down-image{
+   position: absolute;
+   top:3800px;
+   left: 0%;
+   width:100%;
+}
+
+.div6{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;   
+}
+
+.section6-h2{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: $text-color2;
+    z-index: 2;
+}
+
+.span6{
+    width: 600px;
+    height: 78px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: $text-color3;
+    z-index: 2;
+}
+
+.price{
+    width: 350px;
+    height: 66px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #222F65;
+    z-index: 2;
+}
+
+.span7{
+    height: 26px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #37447E;
+    margin-top: 0px;
+
+}
+
+.span8{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #5D6970;
+    z-index: 2;
+}
+
+.last-button{
+    width: 189px;
+    height: 34px;
+    background: $color-button;
+    border-radius: 2px;
+    border: none;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.footer{
+   position: absolute;
+    width:100%;
+    height: 216px;
+    background: #E7ECFF;
+    top:4600px;
+    left: 0%;
+    margin: 0 auto;    
+}
+
+.footer-div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 65px;
+   padding-left: 5%;
+}
+
+.span9{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #939EA4;
+    margin-right: 400px;
+}
+
+.span10{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+    margin-right: 530px;
+}
+
+.footer-button{
+    width:109px;
+    height: 26px;
+    background: $color-button;
+    border-radius: 2px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: $color-textbutton;
+}
+
+.footer-hr{
+    margin-top: 40px;
+}
+
+.navigation2{
+    width:200px;
+    @include row-between; 
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #929ECC;
+    margin-right: 850px;
+}
+
+.a2{
+    color:#929ECC;
+}
+
+.footer-navigation{
+    width:200px;
+    @include row-between;
+}
+
+.last-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5%;
+}
+
+ @media (max-width:720px ){
+    .navigation{
+        display:none;
+    }
+
+    .title{
+        margin-right: 70px;
+    }
+
+    .banner1{
+        display:none;
+    }
+
+    .text1{
+        width: 100%;
+    }
+
+    .h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .span1{
+        width:100%;
+        margin-top: 100px;
+        text-align:justify ;
+        margin-bottom: 120px;
+    }
+
+    .buttons1{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button1{
+        margin-bottom: 20px;
+    }
+
+    .section1{
+        margin-bottom: 100px;
+    }
+
+    .banner-second{
+        display: none;
+    }
+
+    .text2{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .first-h2{
+        text-align: center;
+    }
+
+    .span2{
+        width:100%;
+        text-align: justify;
+    }
+
+    .two-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .small-div1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-div2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-span{
+        text-align: center;
+        width: 100%;
+    }
+
+    .section2{
+        margin-bottom: 100px;
+        margin-right: 0px;
+    }
+
+    .section3{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .section3-h2{
+        width:100%;
+        text-align: center;
+    }
+
+    .span3{
+        width:100%;
+        text-align: justify;
+    }
+
+    .div3{
+        margin-left: 0px;
+    }
+
+    .banner3{
+        width:100%;
+    }
+
+    .section4{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .banner4{
+        width:100%;
+    }
+
+    .div4{
+        width:100%;
+        margin-left: 0px;
+    }
+
+    .section4-h2{
+        width:100%;
+        text-align: center;
+    }
+
+    .span4{
+        width:100%;
+        text-align: justify;
+    }
+
+    .section5{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .banner5{
+        width:100%;
+    }
+
+    .div5{
+        width:100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section5-h2{
+        width:100%;
+        text-align: center;
+    }
+
+    .span5{
+        width:100%;
+        text-align: justify;
+    }
+
+    .down-image{
+        display: none;
+    }
+
+    .div6{
+        width:100%;
+        margin-left: 0px;
+    }
+
+    .section6-h2{
+        width:100%;
+    }
+
+    .span6{
+        width:100%;
+        height: auto;
+        text-align: justify;
+    }
+
+    .price{
+        margin-top: 20px;
+    }
+
+    .last-button{
+        margin-top: 20px;
+    }
+
+    .footer{
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-div{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .span9{
+        width:100%;
+        margin-left: 0px;
+        margin: 0 auto;    
+    }
+
+    .span10{
+        width:100%;
+        margin: 0 auto;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .footer-button{
+        display: none;
+    }
+
+    .last-nav{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-hr{
+        display: none;
+    }
+    
+    .navigation2{
+        display: none;
+    }
+
+ }
