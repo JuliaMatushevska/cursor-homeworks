@@ -1,0 +1,71 @@
+$background-color:#18A0FB;
+$text-color:#FFFFFF;
+$font-family: 'Inter',sans-serif;
+
+@mixin row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;    
+}
+
+@mixin backdround {
+    width: 144px;
+    height: 46px;
+    background: $background-color;
+    border-radius: 5px;   
+}
+
+@mixin text {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color:$text-color;    
+}
+
+.buttons{
+    @include column;
+}
+
+.button-blue{
+    @include row;
+    @include backdround;
+    @include text;
+    border: none;
+    margin-bottom: 24px;
+    margin-right: 20px;
+}
+
+.button-blue-down{
+    @include row;
+    @include backdround;
+    @include text;
+    border: none;
+    margin-bottom: 24px;
+    margin-right: 20px; 
+}
+
+.button-blue-reverse{
+    @include row;
+    @include backdround;
+    @include text;
+    border: none;
+    margin-right: 20px;  
+}
+
+.small{
+    width:111px;
+    height: 36px;
+}
+
+#orange{
+    background-color: #FF3E1D;
+}

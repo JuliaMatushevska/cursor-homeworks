@@ -1,0 +1,70 @@
+$back-color:#FFFFFF;
+$color-text: #2C2C2C;
+$font-family: 'Inter',sans-serif;
+
+@mixin row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;   
+}
+
+@mixin backdround {
+    width: 144px;
+    height: 46px;
+    background: $back-color;
+    border-radius: 5px;   
+}
+
+@mixin text {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color:$color-text;    
+}
+
+.buttons{
+    @include column;
+}
+
+.button-white{
+    @include row;
+    @include backdround;
+    @include text;
+    border: none;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    border: 1px solid #2C2C2C;
+}
+
+.button-white-down{
+    @include row;
+    @include backdround;
+    @include text;
+    margin-bottom: 24px;
+    margin-right: 20px; 
+    border: 1px solid #2C2C2C;
+}
+
+.button-white-reverse{
+    @include row;
+    @include backdround;
+    @include text;
+    border: 1px solid #2C2C2C;
+    margin-bottom: 24px;
+    margin-right: 20px;  
+}
+
+.small{
+    width:111px;
+    height: 36px;
+}

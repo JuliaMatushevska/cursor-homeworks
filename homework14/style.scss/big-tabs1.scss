@@ -1,0 +1,221 @@
+$background-col:#18A0FB;
+$text-color:#FFFFFF;
+$font-family: 'Inter',sans-serif;
+
+@mixin row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-left: 132px;
+}
+
+.tab{
+    @include row;
+    margin-bottom: 24px;
+}
+
+.tab_icon__active{
+    background:$background-col;
+    width: 56px;
+    height: 48px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;   
+}
+
+.tab_icon__middle{
+    width: 56px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid #E0E0E0 ;
+    background: $text-color;   
+}
+
+.tab_icon__last{
+    width: 56px;
+    height: 48px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 0px 5px 5px 0px; 
+    border: 1px solid #E0E0E0 ;
+    background: $text-color;
+}
+
+.tab-numbers{
+    @include row;
+    margin-bottom: 24px;
+}
+
+.tab-numbers_one__blue{
+    width:134px;
+    height:46px;
+    background-color: $background-col;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: $text-color;
+}
+
+.tab-numbers_one{
+    width:134px;
+    height:46px;
+    background-color: $text-color;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border: 1px solid #E0E0E0 ;   
+}
+
+.tab-size{
+    @include row;
+}
+
+.tab-size_s{
+    width:106px;
+    height:46px;
+    background-color: $background-col;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: $text-color;
+}
+
+.tab-size_M{
+    width:106px;
+    height:46px;
+    background-color: $text-color;
+    padding: 12px 16px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border: 1px solid #E0E0E0 ;
+}
+
+.tab-size_L{
+    width:106px;
+    height:46px;
+    background-color: $text-color;
+    padding: 12px 16px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border: 1px solid #E0E0E0 ;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.small-numbers{
+    width:86px;
+    height: 36px;
+    padding: 6px 12px; 
+}
+
+  .small-icon{
+    width:48px;
+    height: 36px;
+    padding: 6px 12px;
+}
+
+  .small-size{
+    width:56px;
+    height: 36px;
+    padding: 6px 12px;
+}
+  
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-left: 65px; 
+}
+
+.circle__orange{
+    width: 36px;
+    height: 36px;
+    background: #FF3E1D;
+    border-radius: 100px;
+    border: none;
+    margin-right: 20px;
+}
+
+.circle__green{
+    width: 48px;
+    height: 48px;
+    background: #00D200;
+    border-radius: 29px;
+    border: none;
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.tag__grey{
+    width: 65px;
+    height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    margin-top: 50px;
+}
+
+.tag__blue{
+    width: 65px;
+    height: 28px;
+    background: $background-col;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    color:$text-color;
+    margin-top: 50px;
+}
+
+.sml{
+    margin-top: 10px;
+    width:51px;
+    height: 28px;
+    margin-right: 25px;
+}
+  
