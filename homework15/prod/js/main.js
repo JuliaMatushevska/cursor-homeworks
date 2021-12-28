@@ -1,11 +1,16 @@
 'use strict';
 console.log('test');
 
-$('.review-slider').slick({
-    infinite: true,
-    loop:true,
 
+$(document).ready(function() {
+    $('.review-slider').slick({
+        autoplay:true,
+        nextArrow:'.bg-arrow_right',
+        prevArrow:'.bg-arrow_left',
+
+    });
 });
+
 
 window.onload = function () {
     let preloader = document.getElementById('preloader');
